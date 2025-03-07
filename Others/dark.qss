@@ -1,0 +1,157 @@
+/*
+*
+*Classic.qss
+*
+*This is a default(dark) of Hiller
+*
+*And this is no copyright,everyone
+*can get it for free and that use
+*unlicense license the developer who 
+*like create private project can use it
+*
+*/
+/*Global Setting*/
+QWidget{
+    background-color:#797979;
+    color:#000;
+    font:DejaVu;
+}
+
+/*PushButton*/
+QPushButton{
+    background:qlineargradient(x1:0,x2:1,y1:0,y2:1,stop:0 #797979,stop:1#000000);
+    color:white;
+    padding:7px;
+    border: 1px solid #000000;
+}
+
+QPushButton:hover{
+    background:qlineargradient(x1:0,x2:1,y1:0,y2:1,stop:0 #797979,stop:1#565656);
+    color:white;
+}
+
+QPushButton:pressed{
+    background:qlineargradient(x1:0,x2:1,y1:0,y2:1,stop:0 #000000,stop:1#797979);
+    color:white;
+}
+
+/*QToolButton*/
+QToolButton{
+    background:qlineargradient(x1:0,x2:1,y1:0,y2:1,stop:0 #797979,stop:1#000000);
+    color:white;
+    padding:7px;
+    border: 1px solid #000000;
+}
+
+QToolButton:pressed{
+    background:qlineargradient(x1:0,x2:1,y1:0,y2:1,stop:0 #000000,stop:1#797979);
+    color:white;
+}
+
+QToolButton:checked{
+    background:qlineargradient(x1:0,x2:1,y1:0,y2:1,stop:0 #797979,stop:1#000000);
+    color:white;
+}
+
+/*QLineEdit*/
+QLineEdit{
+    background:#797979;
+    color:white;
+    padding:7px;
+    border: 1px solid #000000;
+}
+
+/*QComboBox*/
+QComboBox{
+    background:#797979;
+    color:white;
+    padding:7px;
+    border: 1px solid #000000;
+}
+/*QTreeView*/
+QTreeView{
+    background:#797979;
+    padding:7px;
+    border: 1px solid #000000;
+}
+/*QTextEdit*/
+QTextEdit{
+    background:#797979;
+    color:white;
+    padding:3px;
+    border: 1px solid #000000;
+}
+
+/*QFrame*/
+QFrame{
+    background:#797979;
+    color:#FFFFFF;
+}
+
+/*QSpinBox*/
+QSpinBox{
+    background:#797979;
+    color:white;
+    padding:3px;
+    border: 1px solid #000000;
+}
+
+/*QDateEdit*/
+QDateEdit{
+    background:#797979;
+    color:white;
+    padding:3px;
+    border: 1px solid #000000;
+}
+
+/*QTimeEdit*/
+QTimeEdit{
+    background:#797979;
+    color:white;
+    padding:3px;
+    border: 1px solid #000000;
+}
+
+/*QDoubleSpinBox*/
+QDoubleSpinBox{
+    background:#797979;
+    color:white;
+    padding:3px;
+    border: 1px solid #000000;
+}
+
+/*QTabWidget*/
+QTabBar:tab{
+    background:#797979;
+    color:white;
+    padding:3px;
+    border: 1px solid #000000;
+}
+
+QTabWidget:tab-bar{
+    background:#797979;
+    padding:3px;
+    border: 1px solid #000000;
+}
+
+QTabWidget:pane{
+    background:#797979;
+    padding:3px;
+    border: 1px solid #000000;
+}
+
+/*QProgressBar*/
+QProgressBar{
+    background:#FFFFFF;
+    padding:3px;
+    border: 1px solid #000000;
+    text-align:center;
+}
+
+QProgressBar:chunk{
+    background:qlineargradient(x1:0,x2:1,y1:0,y2:1,stop:0 #797979,stop:1#000000);
+    padding:3px;
+    border: 1px solid #000000;
+    width:8px;
+    margin:0.5px;
+}
