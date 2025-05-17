@@ -1,3 +1,12 @@
+# What's new in 1.1
+
+## Hiller.qss
+Change that whole UI for it
+have new style such as winXP
+Office 2003.
+
+---
+
 # Hiller.QSS
 ## What's this?
 The Hiller.QSS is a kind of Qt StyleSheet .It offer 3 types style of it:
